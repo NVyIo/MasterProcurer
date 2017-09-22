@@ -1,0 +1,30 @@
+{
+  "name": "masterprocurer",
+  "version": "1.0.0",
+  "description": "a procurement tool",
+  "main": "app.s",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NVyIo/MasterProcurer.git"
+  },
+  "keywords": [
+    "javascript",
+    "procurement",
+    "MACD",
+    "Mongodb.",
+    "node",
+    "inventory",
+    "dataload",
+    "database",
+    "assets"
+  ],
+  "author": "NiKole Maxwell | nvy.io",
+  "license": "SEE LICENSE IN <\"licensedwhenpaid.txt>",
+  "bugs": {
+    "url": "https://github.com/NVyIo/MasterProcurer/issues"
+  },
+  "homepage": "https://github.com/NVyIo/MasterProcurer#readme"
+}
