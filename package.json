@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/NVyIo/MasterProcurer/issues"
   },
-  "homepage": "https://github.com/NVyIo/MasterProcurer#readme"
+  "homepage": "https://github.com/NVyIo/MasterProcurer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "bootstrap": "^4.0.0-beta",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12"
+  }
 }

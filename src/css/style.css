@@ -1,0 +1,27 @@
+/*      Master Procurer  */
+/*      Casading Style Sheet */
+/*
+Purpose
+A functional dataloader that can be used for procurement and inventory tracking */
+
+/*      Style Standards     
+Colors:
+
+Font: 
+
+(Heading) font-family: 'Orbitron', sans-serif;
+(Basic) font-family: 'Questrial', sans-serif;
+
+<link href="https://fonts.googleapis.com/css?family=Orbitron|Questrial" rel="stylesheet">
+
+*/
+
+
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+}
