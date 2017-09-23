@@ -1,15 +1,13 @@
-
 # Procurement Tool and Web Interface
 
 ##### Designed in theory: September 21, 2017
-
 ## Overview
 ## Basic Concept
-
+    ### This tool will be a device management and reporting utility providing visibility into an organizations allocation of inventory.
 ## Functionality
 
 ### Tasks the program should do:
-#### Display a user Dashboard with relevant info
+s#### Display a user Dashboard with relevant info
 #### Display a landing page with relevant info cards
 #### House inventory:
     1 Display in inventory list
@@ -38,29 +36,33 @@
         c cost center managers
         d procurement managers
 
-Issue assets by 
-    assignment 
-    reassignment
+#### Issue assets by 
+    a assignment 
+    b reassignment
 
-Load all assets by json/bson /// api
+#### Load all assets by 
+    a json
+    b bson
+    c api
 
-Reflect changes to
-    owner
-    deptartment
-    manager
-    costs (straight cut off no partial months)
+#### Reflect changes to
+    a owner
+    b deptartment
+    c manager
+    d costs (straight cut off e no partial months)
 
-Remove 
-    owner
-    removals should result in clean reassignment to manager unless otherwise specificied
+#### Remove 
+    a owner
+    b removals should result in clean reassignment to manager unless otherwise specificied
 
-Assign as Retired device    
-    remove and suppress future charges
-    remove owner
-    remove manager
-    remove cost center/dept
-    assign "Retired" status and reflect in Red
+#### Assign as Retired device    
+    a remove and suppress 
+    b future charges
+    c remove owner
+    d remove manager
+    e remove cost center/dept
+    f assign "Retired" status reflect in Red
 
-    MACD
-    Moves - see above
+#### MACD
+    a Moves - see above
 
