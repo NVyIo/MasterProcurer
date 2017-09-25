@@ -11,3 +11,8 @@ Materialize items to input later
     <li class="waves-effect"><a href="#!">5</a></li>
     <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
   </ul>
+
+
+  //FIREBASE
+
+  npm install -g firebase-toolsfirebase login

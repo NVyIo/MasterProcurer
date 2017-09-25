@@ -6,6 +6,11 @@ A functional dataloader that can be used for procurement and inventory tracking 
 
 /*      Style Standards     
 Colors:
+    magentic purple: #54289a;
+    stacks of green: #5BD072;
+    black power: #0B0514;
+    red alert: #B52129;
+    muted mic: FEFFFF;
 
 Font: 
 
@@ -29,13 +34,17 @@ h1, h2, h3 {
 
 h3 {
     font-size: 1.5em;
-    text-align: center;
-    margin-left: 1.5em;
     margin-top: -2em;
 }
 
 .material-icons {
     text-align: center;
-    margin-left: 25%;
     font-size: 110px;
 }
+
+.card-panel {
+      color: #54289a;
+    background-color: FEFFFF;
+    
+}
+
