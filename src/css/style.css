@@ -8,9 +8,12 @@ A functional dataloader that can be used for procurement and inventory tracking 
 Colors:
     magentic purple: #54289a;
     stacks of green: #5BD072;
+    greenbeast: #4caf50;
     black power: #0B0514;
     red alert: #B52129;
     muted mic: FEFFFF;
+    blue accent: rgba(0, 137, 236, 0.74);
+    light blue: rgba(0, 137, 236, 0.06);    
 
 Font: 
 
@@ -19,9 +22,10 @@ Font:
 
 <link href="https://fonts.googleapis.com/css?family=Orbitron|Questrial" rel="stylesheet">
 
+
+
+
 */
-
-
 
 body {
     font-family: 'Questrial', sans-serif;
@@ -34,17 +38,92 @@ h1, h2, h3 {
 
 h3 {
     font-size: 1.5em;
-    margin-top: -2em;
+    margin-top: auto;
+    margin-left: 10%;
 }
 
+p {
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+p.panelLabel {
+    margin-left: 1.2em;
+    font-size: small;
+    margin-top: -.5em;
+}
+
+
+/* Navigation */
+
+nav {
+     color: #fff;
+      background-color: #0089ec;
+    border-radius: .5em;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    padding: 1em 1.5em;
+}
+
+
+/*  Dashboard Panel  & Cards */
 .material-icons {
     text-align: center;
     font-size: 110px;
+    margin-left: -0.5em;
 }
 
 .card-panel {
-      color: #54289a;
-    background-color: FEFFFF;
-    
+    width: 80%;
+      color: #4caf50;
+    background-color: rgba(0, 137, 236, 0.74);
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+     border: 2.1px inset #4caf50;
+     box-shadow: 5px 5px #0089ec;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    padding: 2em 2em;
+    margin: 2em .5em;
+    border-radius: 3em;
+     background-color: #fff;
+     text-shadow: 1.5px 1.5px rgba(0, 137, 236, 0.74), 1px 1px black;
 }
 
+.card-panel:nth(odd){
+ color:  blue;
+}
+
+p.panelLabel {
+    margin-left: 1.2em;
+    font-size: small;
+}
+
+.card-panel h3 {
+    text-align: center;
+}
+
+.row.col.s3 {
+    width: 25%;
+    margin-left: 1.5em;
+    left: auto;
+    right: auto;
+    margin-right: 1.5em;
+}
+
+#cardBox {
+    margin-right: 1.5em;   
+    margin-left: 1.5em;
+}
+#dashedBox {
+    margin-left: 10em;
+}
+
+/*      FOOTER   */
+
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #ee6e73;
+}
