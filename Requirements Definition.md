@@ -66,3 +66,5 @@ s#### Display a user Dashboard with relevant info
 #### MACD
     a Moves - see above
 
+#### Considerations
+-- Consider adding a Parallax image to the background of the main dashboard.
