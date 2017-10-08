@@ -15,6 +15,9 @@ Colors:
     blue accent: rgba(0, 137, 236, 0.74);
     light blue: rgba(0, 137, 236, 0.06);    
 
+    KevinsBlue :  #6100ec + overlay opacity
+    Kevins Gray: rgba(0, 0, 0, 0.11)
+
 Font: 
 
 (Heading) font-family: 'Orbitron', sans-serif;
@@ -31,10 +34,15 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
+.brand-logo{
+    font-family: 'Orbitron', sans-serif;
+}
+
 h1, h2, h3 {
     font-family: 'Orbitron', sans-serif;
     display: inline-flex;
-    color:   #9e9e9e;
+    color: #9e9e9e;
+    text-shadow: 2px 2px rgba(6, 0, 255, 0.76);
 }
 
 h3 {
@@ -48,14 +56,19 @@ p {
     margin-top: 0;
 }
 
+a:hover {
+font-size: 24px;
+color: white;
+}
+
 /*/ Background Image /*/
 
 .parallax {
   
-   background-image: url("..src/images/bkgrd1.jpeg");
+   background-image: url("../../src/images/greyscale3.jpg");
     min-height: 100%;
     position: relative;
-    opacity: 0.70;
+    /*opacity: 0.70; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,53 +77,55 @@ p {
 
 /*/  Product  Name /*/
 .productName {
+    margin-left: 3.5em;
     margin-bottom: 2em;
 }
 
 /* / Navigation /*/
-
 nav {
-     color: #fff;
+    color: #fff;
     border-radius: .5em;
     width: 100%;
     height: 56px;
     line-height: 64px;
     padding-left: 1.5em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.11);
+    border-bottom-color: #4bc259;
 }
-
 
 /*  Dashboard Panel  & Cards */
 .material-icons {
     text-align: center;
     font-size: 110px;
     margin-left: -0.5em;
+    color: #6100ec;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.11), -2px -2px green;
 }
-
 .card-panel {
     width: 80%;
-      color: #;
-    background-color: rgba();    
-    -webkit-transition: -webkit-box-shadow .25s;
+    color: #eeeeee;
+    background-color: #eee;
     transition: -webkit-box-shadow .25s;
     transition: box-shadow .25s;
-     border: 2.1px inset #;
-     box-shadow: 5px 5px #;
+    border: 2.1px inset rgba(0, 0, 0, 0.35);
+    box-shadow: -5px -5px rgba(68, 68, 68, 0.59);
     transition: box-shadow .25s, -webkit-box-shadow .25s;
     padding: 2em 2em;
     margin: 2em .5em;
     border-radius: 3em;
-     background-color: #fff;
-     text-shadow: 1.5px 1.5px rgba(), 1px 1px black;
-}
-
-.card-panel:nth(odd){
- color:  #;
+    /* background-color: #fff; */
+    text-shadow: 1.5px 1.5px rgba(), 1px 1px black;
 }
 
 p.panelLabel {
-    margin-left: 5%;
+    margin-top: -20px;
+    text-align: center;
+    margin-right: 18%;
     font-size: 1.2em;
     font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+    text-shadow: -1.5px -1.5px black;
 }
 
 .card-panel h3 {
@@ -139,5 +154,5 @@ p.panelLabel {
 .page-footer {
     padding-top: 20px;
     color: #fff;
-    background-color: #;
+    background-color: #4bc259;
 }
