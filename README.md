@@ -9,7 +9,7 @@ This tool will be a device management and reporting utility providing visibility
 
 ## Original Skin [Mockup]
 
-![https://i.imgur.com/NX2qiXH.png] (https://nvy.io/projects/master_procurer "Master Procurer product mock up")
+!["Master Procurer product mock up"](https://i.imgur.com/NX2qiXH.png)
 
 ## License
 This products CSS and HTML will be opensource, free to reuse on other products.
