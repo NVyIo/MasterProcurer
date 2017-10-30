@@ -1,0 +1,15 @@
+# Developer Notes
+/.ignore
+
+
+# Pre-Launch Requirements Definition
+Requirements Definition.md
+
+
+# Node Modules
+/node_modules
+
+
+# Extras
+Materialize Extras (overflow).txt
+.firebaserc
