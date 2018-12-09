@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/NVyIo/MasterProcurer#readme",
   "dependencies": {
-    "body-parser": "^1.18.1",
-    "express": "^4.15.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "materialize-css": "^0.100.2",
-    "mongoose": "^4.11.12"
+    "mongoose": "^4.13.17"
   }
 }
